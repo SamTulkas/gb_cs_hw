@@ -89,7 +89,7 @@ void HW_01_08()
         else
             printed = false; 
         i++;
-        if (i < a && printed)  
+        if (printed)  
             Console.Write(",");
         else
             Console.Write("");    
